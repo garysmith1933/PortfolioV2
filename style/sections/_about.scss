@@ -53,3 +53,14 @@
     }
   }
 }
+
+.about-tools {
+  display: flex;
+}
+
+.technologies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
