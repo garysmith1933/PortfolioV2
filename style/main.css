@@ -1,0 +1,22 @@
+.technologies li {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-top: .5rem;
+}
+
+.technologies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: .5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .technologies{
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 50%;
+  }
+}
